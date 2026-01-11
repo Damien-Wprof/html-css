@@ -14,3 +14,24 @@ main {
   text-align: center;
   padding: 20px;
 }
+
+img {
+  max-width: 350px;
+  height: 300px;
+}
+
+button {
+  background-color: lightgreen;
+  color: black;
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+
+button:hover {
+  background-color: skyblue;
+  transition: .3s ease all;
+  transform: translatey(-5px);
+}
