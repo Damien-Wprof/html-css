@@ -1,9 +1,9 @@
 /* === Layout & Background === */
 body {
-  background-color: #53632f;
+  background-color: #8cccd5;
   margin: 0;
   font-family: "Roboto Condensed", sans-serif;
-  color: #fff;
+  color: #000000;
   text-align: center;
 }
 
@@ -21,7 +21,7 @@ img {
 }
 
 button {
-  background-color: lightgreen;
+  background-color: cyan;
   color: black;
   padding: 10px 16px;
   border: none;
@@ -31,7 +31,8 @@ button {
 
 
 button:hover {
-  background-color: skyblue;
+  background-color: rgb(130, 47, 130);
+  color: beige;
   transition: .3s ease all;
   transform: translatey(-5px);
 }
