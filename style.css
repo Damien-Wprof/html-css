@@ -34,5 +34,5 @@ button:hover {
   background-color: rgb(130, 47, 130);
   color: beige;
   transition: .3s ease all;
-  transform: translatey(-5px);
+  transform: scale(1.05);
 }
