@@ -1,7 +1,7 @@
 'use strict';
 
 
-
+            //asks the user what her favorite color is\\
 function favColor(){
     const color = prompt("What's my mother's favorite color?");
     const colorful = document.getElementById("color");
@@ -12,7 +12,7 @@ function favColor(){
         colorful.textContent = "Sorry, you didn't enter anything.";
     }
 }
-
+            //asks user when her birth month is\\
 function birthMonth(){
     const birthday = Number(prompt("In number format, what month is my mother's birthday?)"));
     const input = document.getElementById("birthday");
@@ -26,7 +26,7 @@ function birthMonth(){
     }
 
 }
-
+            //On click, redirects the user to a rickroll\\
 function rickRoll(){
     document.getElementById("rickroll").addEventListener("click", () => {
     window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
