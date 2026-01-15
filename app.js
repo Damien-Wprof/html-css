@@ -34,7 +34,7 @@ function rickRoll(){
 }
 
 function giveRating() {
-    const rating = Number(prompt("How many mom's would you rate this site?"));
+    const rating = Number(prompt("How many stars would you rate this site?"));
     const output = document.getElementById("rating");
 
     output.textContent = "";
